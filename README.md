@@ -44,27 +44,10 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
 ###   Architecture Diagram
 
 ```text
-         ┌──────────────┐
-         │   User Goal  │
-         └──────┬───────┘
-                │
-        ┌───────▼────────┐
-        │    Planner     │
-        │  (LLM + tools) │
-        └───────┬────────┘
-    ┌───────────┴───────────┐
-    │  Web Search (Tavily)  │
-    │  Weather (OpenWeather)│
-    └───────────┬───────────┘
-                │
-        ┌───────▼────────┐
-        │    Database    │
-        │    (SQLite)    │
-        └───────┬────────┘
-                │
-        ┌───────▼────────┐
-        │   Streamlit UI │
-        └────────────────┘
+┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
+│  User Goal   │ ──> │   Planner    │ ──> │ Web Search & │ ──> │   Database   │ ──> │ Streamlit UI │
+│              │     │ (LLM + tools)│     │   Weather    │     │   (SQLite)   │     │              │
+└──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
 ```
 ---
 
@@ -145,6 +128,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
    ![image](./samples/sample_plan2.png)
 
    **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan2.pdf)
+
 
 
 
