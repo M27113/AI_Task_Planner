@@ -114,7 +114,13 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
 
 After you successfully set up the app, your Streamlit interface should look like this:
 
+1. Without any prior goal entries
+
 ![image](./Streamlit_UI.png)
+
+2. AFter few goal entries
+   
+![image](./Streamlit_UI_2.png)
 
 ## 📝 Sample Goals & Plans  
 
@@ -148,6 +154,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF):**  
    [Download Sample Plan](.samples/sample_plan2.pdf)
+
 
 
 
