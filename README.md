@@ -118,7 +118,7 @@ After you successfully set up the app, your Streamlit interface should look like
 
 ![image](./Streamlit_UI.png)
 
-2. AFter few goal entries
+2. After few goal entries
    
 ![image](./Streamlit_UI_2.png)
 
@@ -154,6 +154,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF):**  
    [Download Sample Plan](.samples/sample_plan2.pdf)
+
 
 
 
