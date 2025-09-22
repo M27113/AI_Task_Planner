@@ -1,11 +1,22 @@
 # 🗺️ AI Task & Trip Planner
 
-An AI-powered agent that helps you turn natural language goals into **structured, actionable plans**.  
-It combines an LLM with web search + weather APIs, stores results in a database, and gives you a simple web interface.
+AI Task Planner is a lightweight agent that helps turn natural language goals into clear, actionable day-by-day plans.  It enriches your tasks with external data like weather forecasts and web search results, making the plans context-aware.  Each generated plan is saved into a database for easy revisiting.  The app provides a simple Streamlit web interface to create, view, and download plans as PDF reports.
 
 ---
 
-## 🚀 How it Works
+## 🚀 Features
+- Accepts natural language goals (e.g., *“Plan a 3-day trip to Jaipur with cultural highlights and good food”*).
+- Breaks down goals into **day-by-day structured steps** (Morning, Afternoon, Evening).
+- Enriches plans with:
+  - 🌦 **Weather info** (if a city/location is detected).
+  - 🔍 **Web search results** for relevant context.
+- Saves every plan in a **SQLite database**.
+- View and download plans as **PDF reports**.
+- Browse your **history of past plans**.
+
+---
+
+## ⚙️ How it Works
 
 ### Workflow
 1. **Input**: User enters a goal (e.g., *"Plan a 2-day vegetarian food tour in Hyderabad"*).
@@ -17,8 +28,26 @@ It combines an LLM with web search + weather APIs, stores results in a database,
 4. **UI**: Streamlit web app to view current + past plans.
 
 ---
+## 🧩 Project Structure
+   ```bash
+   AI_Task_Planner/
+   │── app.py                 # Streamlit web app
+   │── planner.py             # Planner + APIs
+   │── db.py                  # Database helpers
+   │── requirements.txt       # Dependencies
+   │── README.md              # Project documentation
+   │── .env.example           # Example environment variables
+   └── samples/               # Folder for sample output files
+       └── sample_plan1.pdf   # Sample generated PDF plan
+       └── sample_plan2.pdf   
+       └── sample_plan3.pdf   
+       └── sample_plan1.png   # Sample generated Streamlit plan
+       └── sample_plan2.png   
+       └── sample_plan3.png
+```
+---
 
-### Architecture Diagram
+###   Architecture Diagram
 
 ```text
          ┌──────────────┐
@@ -42,26 +71,69 @@ It combines an LLM with web search + weather APIs, stores results in a database,
         ┌───────▼────────┐
         │   Streamlit UI │
         └────────────────┘
+```
+---
 
-## ⚙️ Setup & Run
+## ⚙️ Setup Instructions
 
-1. Clone Repo
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/M27113/AI_Task_Planner.git
+   cd AI_Task_Planner
+   
+2. **Create and activate virtual environment**
+    ```bash
+    python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
 
-git clone https://github.com/yourusername/ai-task-planner.git
-cd ai-task-planner
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
 
-2. Install Dependencies
+4. **Add Environment Variables**
 
-pip install -r requirements.txt
+   Create a .env file in project root:
+   ```bash
+   OPENAI_API_KEY=your_openai_key
+   TAVILY_API_KEY=your_tavily_key
+   OPENWEATHER_API_KEY=your_openweather_key
 
-3. Add Environment Variables
+5. **Run App**
 
-Create a .env file in project root:
+   ```bash
+   streamlit run app.py
 
-OPENAI_API_KEY=your_openai_key
-TAVILY_API_KEY=your_tavily_key
-OPENWEATHER_API_KEY=your_openweather_key
+## 📖 Sample Goals & Plans  
 
-4. Run App
+Here’s few sample input and the generated streamlit output and PDF output:  
 
-streamlit run app.py
+**Input Goal:**  
+
+1. *"Plan a 3-day cultural trip to Jaipur with good food recommendations."*
+
+   **Generated Output (streamlit):**
+   
+   ![image](.samples/sample_plan1.pdf)
+
+   **Generated Output (PDF):**  
+   [Download Sample Plan](.samples/sample_plan1.pdf)
+
+2. *" "*
+ 
+   **Generated Output (streamlit):**
+   
+   ![image](.samples/sample_plan2.pdf)
+
+   **Generated Output (PDF):**  
+   [Download Sample Plan](.samples/sample_plan2.pdf)
+
+3. *" "*
+ 
+   **Generated Output (streamlit):**
+   
+   ![image](.samples/sample_plan2.pdf)
+
+   **Generated Output (PDF):**  
+   [Download Sample Plan](.samples/sample_plan2.pdf)
+
