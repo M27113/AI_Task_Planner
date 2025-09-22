@@ -36,7 +36,7 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
    │── db.py                  # Database helpers
    │── requirements.txt       # Dependencies
    │── README.md              # Project documentation
-   │── .env.example           # Example environment variables
+   │── .env                   # Example environment variables
    └── samples/               # Folder for sample output files
        └── sample_plan1.pdf   # Sample generated PDF plan
        └── sample_plan2.pdf   
@@ -142,5 +142,6 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF):**  
    [Download Sample Plan](.samples/sample_plan2.pdf)
+
 
 
