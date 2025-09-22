@@ -135,9 +135,11 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
 ---
 
-## 🧠 AI Assistance
+## 🧠 AI Assistance Disclosure
 
-Some parts of this project, including the planning logic, prompt design, and README write-up, were developed with the help of AI (ChatGPT). All code implementation, testing, and integration were done by me.
+This project leveraged AI (ChatGPT) for guidance on designing prompts, organizing code structure, and improving readability. The full implementation, testing, final integration, and learning process were completed independently by me.
+
+
 
 
 
