@@ -38,12 +38,6 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
    │── README.md              # Project documentation
    │── .env                   # Example environment variables
    └── samples/               # Folder for sample output files
-       └── sample_plan1.pdf   # Sample generated PDF plan
-       └── sample_plan2.pdf   
-       └── sample_plan3.pdf   
-       └── sample_plan1.png   # Sample generated Streamlit plan
-       └── sample_plan2.png   
-       └── sample_plan3.png
 ```
 ---
 
@@ -151,6 +145,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
    ![image](./samples/sample_plan2.png)
 
    **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan2.pdf)
+
 
 
 
