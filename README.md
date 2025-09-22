@@ -87,6 +87,8 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
    ```bash
    streamlit run app.py
 
+---
+
 ## 🎨 Streamlit Interface
 
 After you successfully set up the app, your Streamlit interface should look like this:
@@ -98,6 +100,8 @@ After you successfully set up the app, your Streamlit interface should look like
 2. After few goal entries
    
 ![image](./Streamlit_UI_2.png)
+
+---
 
 ## 📝 Sample Goals & Plans  
 
@@ -129,7 +133,11 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
 
+---
 
+## 🧠 AI Assistance
+
+Some parts of this project, including the planning logic, prompt design, and README write-up, were developed with the help of AI (ChatGPT). All code implementation, testing, and integration were done by me.
 
 
 
