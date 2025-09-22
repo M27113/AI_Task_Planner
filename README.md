@@ -95,11 +95,11 @@ After you successfully set up the app, your Streamlit interface should look like
 
 1. Without any prior goal entries
 
-![image](./Streamlit_UI.png)
+![image](./samples/Streamlit_UI.png)
 
 2. After few goal entries
    
-![image](./Streamlit_UI_2.png)
+![image](./samples/Streamlit_UI_2.png)
 
 ---
 
@@ -138,6 +138,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 ## 🧠 AI Assistance Disclosure
 
 This project leveraged AI (ChatGPT) for guidance on designing prompts, organizing code structure, and improving readability. The full implementation, testing, final integration, and learning process were completed independently by me.
+
 
 
 
