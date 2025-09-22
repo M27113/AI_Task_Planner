@@ -110,7 +110,7 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
    ```bash
    streamlit run app.py
 
-## 📖 Sample Goals & Plans  
+## 📝 Sample Goals & Plans  
 
 Here’s few sample input and the generated streamlit output and PDF output:  
 
@@ -142,6 +142,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF):**  
    [Download Sample Plan](.samples/sample_plan2.pdf)
+
 
 
 
