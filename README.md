@@ -130,30 +130,28 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
 1. *"Plan a 2‑day vegetarian food tour in Hyderabad"*
 
-   **Generated Output (streamlit):**
+   **Generated Output (streamlit) :**
    
    ![image](./samples/sample_plan1.png)
 
-   **Generated Output (PDF):**  
-   [Download Sample Plan](./samples/sample_plan1.pdf) 
+   **Generated Output (PDF) :**   [Download_Sample_Plan1](./samples/sample_plan1.pdf) 
 
 2. *"Organise a 5‑step daily study routine for learning Python"*
  
-   **Generated Output (streamlit):**
+   **Generated Output (streamlit) :**
    
    ![image](./samples/sample_plan2.png)
 
-   **Generated Output (PDF):**  
-   [Download Sample Plan](./samples/sample_plan2.pdf)
+   **Generated Output (PDF) :**   [Download_Sample_Plan2](./samples/sample_plan2.pdf)
 
 3. *"Create a weekend plan in Vizag with beach, hiking, and seafood"*
  
-   **Generated Output (streamlit):**
+   **Generated Output (streamlit) :**
    
    ![image](./samples/sample_plan2.png)
 
-   **Generated Output (PDF):**  
-   [Download Sample Plan](./samples/sample_plan2.pdf)
+   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan2.pdf)
+
 
 
 
