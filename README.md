@@ -105,13 +105,13 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
 **Input Goal:**  
 
-1. *"Plan a 2‑day vegetarian food tour in Hyderabad"*
+1. *"Create a weekend plan in Vizag with beach, hiking, and seafood"*
 
    **Generated Output (streamlit) :**
    
-   ![image](./samples/sample_plan1.png)
+   ![image](./samples/sample_plan_1.png)
 
-   **Generated Output (PDF) :**   [Download_Sample_Plan1](./samples/sample_plan1.pdf) 
+   **Generated Output (PDF) :**   [Download_Sample_Plan1](./samples/sample_plan_1.pdf) 
 
 2. *"Organise a 5‑step daily study routine for learning Python"*
  
@@ -121,13 +121,14 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF) :**   [Download_Sample_Plan2](./samples/sample_plan2.pdf)
 
-3. *"Create a weekend plan in Vizag with beach, hiking, and seafood"*
+3. *"Plan a 2‑day vegetarian food tour in Hyderabad"*
  
    **Generated Output (streamlit) :**
    
-   ![image](./samples/sample_plan2.png)
+   ![image](./samples/sample_plan_3.png)
 
-   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan2.pdf)
+   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
+
 
 
 
