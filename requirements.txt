@@ -1,7 +1,0 @@
-
-streamlit>=1.25
-openai>=1.0.0
-requests>=2.31
-python-dotenv>=1.0
-fpdf>=1.7.2
-markdown2>=2.4.8
