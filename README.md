@@ -91,6 +91,12 @@ AI Task Planner is a lightweight agent that helps turn natural language goals in
    ```bash
    pip install -r requirements.txt
 
+4. **Download spaCy English model**
+
+    This is required for city/state/country extraction in plans:
+    ```bash
+    python -m spacy download en_core_web_sm
+    
 4. **Add Environment Variables**
 
    Create a .env file in project root:
@@ -136,4 +142,5 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
    **Generated Output (PDF):**  
    [Download Sample Plan](.samples/sample_plan2.pdf)
+
 
