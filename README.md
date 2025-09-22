@@ -103,31 +103,32 @@ After you successfully set up the app, your Streamlit interface should look like
 
 Here’s few sample input and the generated streamlit output and PDF output:  
 
-**Input Goal:**  
+### Input Goal:
 
-1. *"Create a weekend plan in Vizag with beach, hiking, and seafood"*
+### 1. *"Create a weekend plan in Vizag with beach, hiking, and seafood"*
 
-   **Generated Output (streamlit) :**
+   Generated Output (streamlit) :
    
    ![image](./samples/sample_plan_1.png)
 
-   **Generated Output (PDF) :**   [Download_Sample_Plan1](./samples/sample_plan_1.pdf) 
+  **Generated Output (PDF) :**   [Download_Sample_Plan1](./samples/sample_plan_1.pdf) 
 
-2. *"Organise a 5‑step daily study routine for learning Python"*
+### 2. *"Organise a 5‑step daily study routine for learning Python"*
  
-   **Generated Output (streamlit) :**
+   Generated Output (streamlit) :
    
-   ![image](./samples/sample_plan2.png)
+   ![image](./samples/sample_plan_2.png)
 
-   **Generated Output (PDF) :**   [Download_Sample_Plan2](./samples/sample_plan2.pdf)
+  **Generated Output (PDF) :**   [Download_Sample_Plan2](./samples/sample_plan_2.pdf)
 
-3. *"Plan a 2‑day vegetarian food tour in Hyderabad"*
+### 3. *"Plan a 2‑day vegetarian food tour in Hyderabad"*
  
-   **Generated Output (streamlit) :**
+   Generated Output (streamlit) :
    
    ![image](./samples/sample_plan_3.png)
 
-   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
+  **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
+
 
 
 
