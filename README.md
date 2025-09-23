@@ -128,11 +128,11 @@ Here’s few sample input and the generated streamlit output and PDF output:
 ### 3. *"Plan outdoor sightseeing in Hyderabad, consider temperature and rain"*
  
    Generated Output (streamlit) :
+      
+  **Note**: The Agent includes weather only if a location is detected and relevant to the tasks.
    
    ![image](./samples/Sample_plan_3.png)
-   
-  **Note**: The Agent includes weather only if a location is detected and relevant to the tasks.
-  
+
   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
 
 ---
@@ -140,6 +140,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 ## 🧠 AI Assistance Disclosure
 
 This project leveraged AI (ChatGPT) for guidance on refining prompts and enhancing readability. All design, implementation, debugging, testing, integration, and learning were carried out independently by me.
+
 
 
 
