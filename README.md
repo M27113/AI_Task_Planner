@@ -125,7 +125,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
   **Generated Output (PDF) :**   [Download_Sample_Plan2](./samples/sample_plan_2.pdf)
 
-### 3. *"plan outdoor sightseeing in Hyderabad, consider temperature and rain"*
+### 3. *"Plan outdoor sightseeing in Hyderabad, consider temperature and rain"*
  
    Generated Output (streamlit) :
    
@@ -140,6 +140,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 ## 🧠 AI Assistance Disclosure
 
 This project leveraged AI (ChatGPT) for guidance on refining prompts and enhancing readability. All design, implementation, debugging, testing, integration, and learning were carried out independently by me.
+
 
 
 
