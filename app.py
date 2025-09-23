@@ -5,8 +5,6 @@ import re
 
 from planner import extract_location, generate_plan
 from db import init_db, save_plan, fetch_plans, clean_plan_output
-import warnings
-warnings.filterwarnings("ignore")
 
 # ------------------ Setup ------------------
 st.set_page_config(page_title="AI Task Planner", page_icon="📝", layout="wide")
@@ -141,4 +139,5 @@ else:
                 file_name=f"task_plan_{pid}.pdf",
                 mime="application/pdf"
             )
+
 
