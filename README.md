@@ -137,7 +137,9 @@ Here’s few sample input and the generated streamlit output and PDF output:
 
 ## 🧠 AI Assistance Disclosure
 
-This project leveraged AI (ChatGPT) for guidance guidance on code readability and organization. The full implementation, testing, final integration, and learning process were completed independently by me.
+This project leveraged AI (ChatGPT) for guidance on code readability and organization. All design, implementation, debugging, testing, integration, and learning were carried out independently by me.
+
+
 
 
 
