@@ -97,15 +97,18 @@ def generate_plan(goal: str) -> str:
     
     Instructions:
     - Convert the user's goal into a clear, actionable day-by-day plan.
+    - Include weather forecast conditions for each day, based on the current weather if a location is detected.
     - Please generate a clear, day-by-day actionable plan. Use emoji-friendly headings for each day:
-    - ☀️ Morning
-    - 🌞 Afternoon
-    - 🌙 Evening
+
+        - ☀️ Morning
+        - 🌞 Afternoon
+        - 🌙 Evening
+
     - Include meaningful numbered steps and '--' for bullet points.
     - At the end, provide a section titled "Actionable Steps" summarizing key tasks.
 
     Important:
-    - Include weather info only if a location is detected/needed for the desired task planning.
+    - Include weather information only if a location is detected/needed for the desired task planning.
     - Make all steps actionable and clear for the user to follow.
     """
 
@@ -121,3 +124,4 @@ def generate_plan(goal: str) -> str:
         plan = "Sorry, the plan could not be generated. Please try again."
 
     return plan
+
