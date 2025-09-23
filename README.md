@@ -131,7 +131,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
    
    ![image](./samples/sample_plan_3.png)
    
-  **Note**: Includes weather information only if a location is detected/needed for the desired task planning.
+  **Note**: The Agent includes weather information only if a location is detected/needed for the desired task planning.
   
   **Generated Output (PDF) :**   [Download_Sample_Plan3](./samples/sample_plan_3.pdf)
 
@@ -140,6 +140,7 @@ Here’s few sample input and the generated streamlit output and PDF output:
 ## 🧠 AI Assistance Disclosure
 
 This project leveraged AI (ChatGPT) for guidance on refining prompts and enhancing readability. All design, implementation, debugging, testing, integration, and learning were carried out independently by me.
+
 
 
 
